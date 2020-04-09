@@ -4,6 +4,8 @@ GitHub Action to make zip deployment to AWS Lambda with requirements in a separa
 ## Description
 This action automatically installs requirements, zips and deploys the code including the dependencies as a separate layer.
 
+#### Python 3.8 is supported
+
 ### Pre-requisites
 In order for the Action to have access to the code, you must use the `actions/checkout@master` job before it. 
 
