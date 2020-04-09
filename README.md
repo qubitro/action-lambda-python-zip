@@ -1,6 +1,8 @@
 # action-lambda-python-zip
 GitHub Action to make zip deployment to AWS Lambda with requirements in a separate layer.
 
+[![GitHubActions](https://img.shields.io/badge/listed%20on-GitHubActions-blue.svg)](https://github-actions.netlify.com/aws-lambda-zip-deploy-python)
+
 ## Description
 This action automatically installs requirements, zips and deploys the code including the dependencies as a separate layer.
 
